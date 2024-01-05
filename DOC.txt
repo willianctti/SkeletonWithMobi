@@ -1,0 +1,17 @@
+para fazer esse skeleton utilizei a lib moti 
+	https://moti.fyi/installation
+juntamente com a lib reanimated
+	https://docs.expo.dev/versions/latest/sdk/reanimated/
+e a linearGradient
+	https://docs.expo.dev/versions/latest/sdk/linear-gradient/
+
+									
+fiz um obj de um arraay com contatos ficticios e um timeout de 1s para mostrar o skeleton
+	um useEffect para carregar o array depois dos 1s
+
+para fazer o "loading" do skeleton definimos com um useSate loading e setLoading
+fiz um return de um JSX que reetorna uma estrut. condicional: Se está carregando ou não (useState de loading)
+se true, trará o componente de Skeleton render 
+se false trará um map no contatos que vem do useState.
+
+
